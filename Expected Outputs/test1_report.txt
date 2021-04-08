@@ -1,0 +1,38 @@
+Summary:
+Total Cookies in Baseline =   4
+Empty cookies in baseline  =  1
+Non-empty cookies in baseline = 4
+total cookies in test = 6
+empty cookies in test = 1
+non-empty cookies in test = 6
+non-empty cookies in baseline only =  0
+non-empty cookies in test only =  2
+non-empty cookies in both = 4
+non-empty cookies in either = 6
+
+Segments that gained extra cookies:  7 / 11
+0 	 F09828_0 	 3 	 ['000000487054aa8489ae5c95a38225cd', '00000062e064aaf40277135de48c95e2', '010002cd3509054a96dc4c150ccff21f']
+1 	 F09828_14186 	 1 	 ['010002cd3509054a96dc4c150ccff21f']
+2 	 F09828_15394 	 1 	 ['00000062e064aaf40277135de48c95e2']
+3 	 F09828_15398 	 1 	 ['00000062e064aaf40277135de48c95e2']
+4 	 F09828_15399 	 1 	 ['01000424b64299ff1a20e52293349564']
+5 	 F09828_15401 	 1 	 ['000000487054aa8489ae5c95a38225cd']
+6 	 L15029_10004 	 2 	 ['010002cd3509054a96dc4c150ccff21f', '01000424b64299ff1a20e52293349564']
+
+Segments that lost cookies:  4 / 11
+0 	 F09828_14186 	 1 	 ['0100019fbe69904789124c6f2c559d66']
+1 	 F09828_15399 	 1 	 ['0100019fbe69904789124c6f2c559d66']
+2 	 F09828_15400 	 2 	 ['0000001aa104bdfc08241f746c7510cf', '000000487054aa8489ae5c95a38225cd']
+3 	 F09828_15407 	 1 	 ['0100019fbe69904789124c6f2c559d66']
+
+Cookies assigned to extra segments:  4 / 6
+0 	 000000487054aa8489ae5c95a38225cd 	 2 	 ['F09828_0', 'F09828_15401']
+1 	 00000062e064aaf40277135de48c95e2 	 3 	 ['F09828_0', 'F09828_15394', 'F09828_15398']
+2 	 010002cd3509054a96dc4c150ccff21f 	 3 	 ['F09828_0', 'F09828_14186', 'L15029_10004']
+3 	 01000424b64299ff1a20e52293349564 	 2 	 ['F09828_15399', 'L15029_10004']
+
+Cookies omitted from segments:  4 / 6
+0 	 0000001aa104bdfc08241f746c7510cf 	 1 	 ['F09828_15400']
+1 	 000000487054aa8489ae5c95a38225cd 	 1 	 ['F09828_15400']
+2 	 00000062e064aaf40277135de48c95e2 	 0 	 ['']
+3 	 0100019fbe69904789124c6f2c559d66 	 3 	 ['F09828_14186', 'F09828_15399', 'F09828_15407']
